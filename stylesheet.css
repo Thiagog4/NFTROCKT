@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+  }
+  .conteiner{
+      width: 100%;
+  }
+
+.conteudo-inicial{
+    background-image: url(Arquivos/assets/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hyperlink-cabecalho{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+   }
+.btn-metamask{
+       font-family: 'Montserrat', sans-serif;
+       width:230px;
+       height:50px;
+       text-align: center;
+       font-size:16px;
+   }
+   .conteudo-badge{
+       display: flex;
+       color: white;
+       flex-wrap: nowrap;
+       width: 1277px;
+       height: 246px;
+       justify-content: center;
+       order: 2;
+   }
+
+   .texto-inicial{
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 50px;
+    word-wrap: break-word;
+    height: 246px;
+    width: 596px ;
+    font-weight: 700;
+   }
+   .texto-esquerda{
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 18px;
+    float: left;
+    height: 88px;
+    width: 401px;
+    font-weight: 400;
+   }
+   .conteudo-galeria{
+       margin: 20px 20px 20px 20px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+   .foto1-foto2{
+       display: flex;
+        margin:20px;
+        flex-direction: column;
+   }
+   .foto3-foto4{
+    display: flex;
+    margin:20px;
+    flex-direction: column;
+   }
+    .foto5-foto6{
+    display: flex;
+    margin:20px;
+    flex-direction: column;
+}
+    .foto7-foto8{
+    display: flex;
+    margin:20px;
+    flex-direction: column;
+}
+
+   .texto-e-avatargroupe{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: center;
+       
+   }
+   .texto-texto-avatars{
+    display: flex; 
+    flex-direction: column; 
+    margin: 20px 30px 20px 20px;
+
+   }
+
+   .texto-mkt{
+    display: flex; 
+    flex-direction: column;
+    margin: 20px 30px 20px 30px ;
+   }
