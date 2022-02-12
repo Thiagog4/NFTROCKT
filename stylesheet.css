@@ -15,6 +15,7 @@
   }
   .conteiner{
       width: 100%;
+      background-color: #0e0e0e;
   }
 
 .conteudo-inicial{
@@ -114,3 +115,33 @@
     flex-direction: column;
     margin: 20px 30px 20px 30px ;
    }
+
+   .section-numeros{
+       display: flex;
+       flex-direction: row;
+   }
+
+   .div-numeros{
+       flex-direction: column;
+       height: 100%;
+
+   }
+
+   .h1-numeros{
+       color:white;
+   }
+
+   .h2-numeros{
+       color: white;
+   }
+
+   .div-texto-numeros{
+       display: flex;
+       flex-direction:row;
+       width: 100%;
+   }
+.p-numeros{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 18;
+    font-weight: 300;
+}
