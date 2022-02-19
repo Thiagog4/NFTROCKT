@@ -141,15 +141,22 @@
    }
 
    .div-texto-numeros{
+       flex-direction: row;
+       flex-wrap: nowrap;
+       width: 914px;
+       height: 212px;
+   }
+   .div-texto-imagem-numeros{
+       flex-direction: row;
+       float: right;
    }
 .p-numeros{
+    justify-content:flex-start
     font-family: 'Montserrat', sans-serif ;
+    width: 50%;
+    height: 50%;
     font-size: 18px;
     font-weight: 300;
+    color: #fff;
 }
 
-.div-imagem-numeros{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
