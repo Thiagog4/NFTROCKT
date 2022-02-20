@@ -151,7 +151,7 @@
        float: right;
    }
 .p-numeros{
-    justify-content:flex-start
+    justify-content:flex-start;
     font-family: 'Montserrat', sans-serif ;
     width: 50%;
     height: 50%;
